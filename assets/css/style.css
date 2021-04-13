@@ -269,6 +269,7 @@ nav a:focus {
    
    .article-title {
       order: 0;
+      margin: 2%;
    }
    
 }
@@ -280,6 +281,7 @@ nav a:focus {
     font-weight: 600;
     font-family: sans-serif;
     line-height: 1px;
+    padding: 3%;
 }
 
 .article--padding {
