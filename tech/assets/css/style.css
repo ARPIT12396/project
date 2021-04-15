@@ -72,7 +72,6 @@ h3 {
 
 .container {
    width: 90%;
-   max-width: 900px;
    margin: 0 auto;
 }
 
@@ -330,3 +329,62 @@ nav a:focus {
    font-size: 24px;
    font-weight: 700;
 }
+
+
+/* social media */
+
+/* card-box */
+
+ul {
+   list-style: none;
+}
+
+ul li {
+   margin:5px 20px;
+   float:left;
+}
+
+.wp-icon {
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   text-align: center;
+   line-height: 50px;
+   vertical-align: middle;
+   color: #fff;
+   margin-right: 5px;
+}
+
+.fa-facebook-f {
+ background: #3B5998;
+}
+
+.fa-linkedin {
+ background: #0077B5;
+}
+
+.fa-twitter {
+ background: #1DA1F2;
+}
+.fa-instagram {
+ background: #d6249f;
+ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+ box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.fa-google-plus {
+ background: #D04338;
+}
+.fa-youtube {
+ background: #FF0000;
+}
+
+.fa-pinterest {
+ background: #BD081C;
+}
+
+.fa {
+   font-size: 20px !important;
+   padding: 10px !important;
+}
+
+/* social media */
