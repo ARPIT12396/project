@@ -1,0 +1,23 @@
+# Group 1
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+# Group 2
+User-agent: *
+Allow: /
+
+Sitemap: http://www.codexants.in/sitemap.xml
+
+# Example 1: Block only Googlebot
+User-agent: Googlebot
+Disallow: /
+
+# Example 2: Block Googlebot and Adsbot
+User-agent: Googlebot
+User-agent: AdsBot-Google
+Disallow: /
+
+# Example 3: Block all but AdsBot crawlers
+User-agent: *
+Disallow: /
+
